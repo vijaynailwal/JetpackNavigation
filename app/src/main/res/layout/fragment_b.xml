@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edt_sendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="send data to fragment d" />
+
+    <TextView
+        android:id="@+id/tv_receivedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="receive data from fragment d"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_sendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send data to fragment d" />
+
+
+    <Button
+        android:id="@+id/btn_fragmentD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment B to fragment D" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel" />
+
+</LinearLayout>
